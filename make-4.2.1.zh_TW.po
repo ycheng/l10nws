@@ -683,7 +683,6 @@ msgstr "從鏈中刪除子程序 %p PID %s%s。\n"
 msgid "Released token for child %p (%s).\n"
 msgstr "為子程序 %p (%s) 釋放令牌 (token)。\n"
 
-# ycheng
 #: job.c:1508 job.c:2201
 #, c-format
 msgid "process_easy() failed to launch process (e=%ld)\n"
@@ -728,15 +727,15 @@ msgstr "無法實施負載限制："
 
 #: job.c:2048
 msgid "no more file handles: could not duplicate stdin\n"
-msgstr "沒有剩餘的文件句柄: 無法復製標準輸入\n"
+msgstr "無可用的檔案控制端: 無法複製標準輸入\n"
 
 #: job.c:2060
 msgid "no more file handles: could not duplicate stdout\n"
-msgstr "沒有剩餘的文件句柄: 無法復製標準輸出\n"
+msgstr "無可用的檔案控制端: 無法複製標準輸出\n"
 
 #: job.c:2074
 msgid "no more file handles: could not duplicate stderr\n"
-msgstr "沒有剩餘的文件句柄: 無法復製標準錯誤\n"
+msgstr "無可用的檔案控制端: 無法複製標準錯誤\n"
 
 #: job.c:2089
 msgid "Could not restore stdin\n"
@@ -782,7 +781,7 @@ msgstr "$SHELL 已改變 (原為'%s'，現為'%s')\n"
 #: job.c:3022 job.c:3207
 #, c-format
 msgid "Creating temporary batch file %s\n"
-msgstr "正在建立臨時批文件 %s\n"
+msgstr "正在建立臨時批次文件 %s\n"
 
 #: job.c:3030
 msgid ""
@@ -813,7 +812,7 @@ msgstr "-O[類型] (--output-sync[=類型]) 並未配置入此 make 構建。"
 #: load.c:60
 #, c-format
 msgid "Failed to open global symbol table: %s"
-msgstr "打開全局符號表失敗：%s"
+msgstr "打開全域符號表失敗：%s"
 
 #: load.c:97
 #, c-format
@@ -845,8 +844,9 @@ msgstr "選項：\n"
 
 #: main.c:339
 msgid "  -b, -m                      Ignored for compatibility.\n"
-msgstr "  -b, -m                      為兼容性而忽略。\n"
+msgstr "  -b, -m                      為相容性而忽略。\n"
 
+# ycheng
 #: main.c:341
 msgid "  -B, --always-make           Unconditionally make all targets.\n"
 msgstr "  -B, --always-make           無條件製作 (make) 所有目標。\n"
