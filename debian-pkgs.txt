@@ -1,0 +1,2 @@
+gettext
+apt-get install sharutils
