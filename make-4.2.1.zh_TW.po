@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: make 4.1.90\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
 "POT-Creation-Date: 2016-06-10 19:03-0400\n"
-"PO-Revision-Date: 2017-05-17 13:32+0800\n"
-"Last-Translator: Yuan-Chen Cheng <mail@ycheng.net>\n"
+"PO-Revision-Date: 2017-05-18 10:18+0800\n"
+"Last-Translator: Y.C Cheng <ycheng@linux.org.tw>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 2.0.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ar.c:46
@@ -82,11 +82,10 @@ msgstr "  日期 %s"
 msgid "  uid = %d, gid = %d, mode = 0%o.\n"
 msgstr "  uid = %d，gid = %d，mode = 0%o。\n"
 
-# ycheng
 #: commands.c:402
 #, c-format
 msgid "Recipe has too many lines (%ud)"
-msgstr "命令配方行數太多 (%ud)"
+msgstr "命令方案行數太多 (%ud)"
 
 #: commands.c:503
 msgid "*** Break.\n"
@@ -101,21 +100,21 @@ msgstr "*** [%s] 歸檔成員“%s”可能是假的；未刪除"
 #: commands.c:631
 #, c-format
 msgid "*** Archive member '%s' may be bogus; not deleted"
-msgstr "*** 歸檔成員“%s”可能是假的；未刪除"
+msgstr "*** 歸檔成員 '%s'可能是假的；未刪除"
 
 #: commands.c:645
 #, c-format
 msgid "*** [%s] Deleting file '%s'"
-msgstr "*** [%s] 正在刪除文件“%s”"
+msgstr "*** [%s] 正在刪除文件'%s'"
 
 #: commands.c:647
 #, c-format
 msgid "*** Deleting file '%s'"
-msgstr "*** 正在刪除文件“%s”"
+msgstr "*** 正在刪除文件'%s'"
 
 #: commands.c:683
 msgid "#  recipe to execute"
-msgstr "#  要執行的配方"
+msgstr "#  要執行的方案"
 
 #: commands.c:686
 msgid " (built-in):"
@@ -124,7 +123,7 @@ msgstr " (內置)："
 #: commands.c:688
 #, c-format
 msgid " (from '%s', line %lu):\n"
-msgstr " (從“%s”，行 %lu)：\n"
+msgstr " (從'%s'，行 %lu)：\n"
 
 #: dir.c:1069
 msgid ""
@@ -140,7 +139,6 @@ msgid "# %s: could not be stat'd.\n"
 msgstr "# %s：無法對其進行 stat 操作。\n"
 
 #: dir.c:1085
-#, fuzzy
 #| msgid "# %s (key %s, mtime %d): could not be opened.\n"
 msgid "# %s (key %s, mtime %I64u): could not be opened.\n"
 msgstr "# %s (關鍵字 %s，修改時間 %d)：無法打開。\n"
@@ -148,28 +146,27 @@ msgstr "# %s (關鍵字 %s，修改時間 %d)：無法打開。\n"
 #: dir.c:1090
 #, c-format
 msgid "# %s (device %d, inode [%d,%d,%d]): could not be opened.\n"
-msgstr "# %s (設備 %d，i-節點 [%d,%d,%d])：無法打開。\n"
+msgstr "# %s (設備 %d，inode [%d,%d,%d])：無法打開。\n"
 
 #: dir.c:1095
 #, c-format
 msgid "# %s (device %ld, inode %ld): could not be opened.\n"
-msgstr "# %s (設備 %ld，i-節點 %ld)：無法打開。\n"
+msgstr "# %s (設備 %ld，inode %ld)：無法打開。\n"
 
 #: dir.c:1122
-#, fuzzy
 #| msgid "# %s (key %s, mtime %d): "
 msgid "# %s (key %s, mtime %I64u): "
-msgstr "# %s (關鍵字 %s，修改時間 %d)："
+msgstr "# %s (關鍵字 %s，修改時間 %I64u)："
 
 #: dir.c:1127
 #, c-format
 msgid "# %s (device %d, inode [%d,%d,%d]): "
-msgstr "# %s (設備 %d，i-節點 [%d,%d,%d])："
+msgstr "# %s (設備 %d，inode [%d,%d,%d])："
 
 #: dir.c:1132
 #, c-format
 msgid "# %s (device %ld, inode %ld): "
-msgstr "# %s (設備 %ld，i-節點 %ld)："
+msgstr "# %s (設備 %ld，inode %ld)："
 
 #: dir.c:1138 dir.c:1159
 msgid "No"
@@ -208,23 +205,24 @@ msgstr "未終止的變量引用"
 #: file.c:278
 #, c-format
 msgid "Recipe was specified for file '%s' at %s:%lu,"
-msgstr "關于文件“%s”的命令配方在 %s:%lu 處指定，"
+msgstr "關於文件'%s'的命令方案在 %s:%lu 處指定，"
 
 #: file.c:283
 #, c-format
 msgid "Recipe for file '%s' was found by implicit rule search,"
-msgstr "關于文件“%s”的命令配方通過隱含規則搜索而找到，"
+msgstr "關於文件“%s”的命令方案通過隱含規則搜索而找到，"
 
 #: file.c:287
 #, c-format
 msgid "but '%s' is now considered the same file as '%s'."
-msgstr "但“%s”現在被看做“%s”的同一個文件。"
+msgstr "但“%s”現在被看做'%s'的同一個文件。"
 
 #: file.c:290
 #, c-format
 msgid "Recipe for '%s' will be ignored in favor of the one for '%s'."
-msgstr "“%s”的命令配方被忽略，轉而使用“%s”的"
+msgstr "'%s'的命令方案被忽略，轉而使用“%s”的"
 
+# ycheng
 #: file.c:310
 #, c-format
 msgid "can't rename single-colon '%s' to double-colon '%s'"
@@ -296,7 +294,7 @@ msgstr "#  文件是一個中間前提。"
 
 #: file.c:986
 msgid "#  Also makes:"
-msgstr "#  還要制作："
+msgstr "#  還要製作："
 
 #: file.c:992
 msgid "#  Modification time never checked."
@@ -325,11 +323,11 @@ msgstr "#  文件尚未被更新。"
 
 #: file.c:1008
 msgid "#  Recipe currently running (THIS IS A BUG)."
-msgstr "#  正在運行的配方 (這是 BUG)。"
+msgstr "#  正在運行的方案 (這是 BUG)。"
 
 #: file.c:1011
 msgid "#  Dependencies recipe running (THIS IS A BUG)."
-msgstr "#  正在運行的依賴性配方 (這是 BUG)。"
+msgstr "#  正在運行的依賴性方案 (這是 BUG)。"
 
 #: file.c:1020
 msgid "#  Successfully updated."
@@ -732,15 +730,15 @@ msgstr "無法實施負載限制："
 
 #: job.c:2048
 msgid "no more file handles: could not duplicate stdin\n"
-msgstr "沒有剩餘的文件句柄: 無法復制標準輸入\n"
+msgstr "沒有剩餘的文件句柄: 無法復製標準輸入\n"
 
 #: job.c:2060
 msgid "no more file handles: could not duplicate stdout\n"
-msgstr "沒有剩餘的文件句柄: 無法復制標準輸出\n"
+msgstr "沒有剩餘的文件句柄: 無法復製標準輸出\n"
 
 #: job.c:2074
 msgid "no more file handles: could not duplicate stderr\n"
-msgstr "沒有剩餘的文件句柄: 無法復制標準錯誤\n"
+msgstr "沒有剩餘的文件句柄: 無法復製標準錯誤\n"
 
 #: job.c:2089
 msgid "Could not restore stdin\n"
@@ -853,7 +851,7 @@ msgstr "  -b, -m                      為兼容性而忽略。\n"
 
 #: main.c:341
 msgid "  -B, --always-make           Unconditionally make all targets.\n"
-msgstr "  -B, --always-make           無條件制作 (make) 所有目標。\n"
+msgstr "  -B, --always-make           無條件製作 (make) 所有目標。\n"
 
 #: main.c:343
 msgid ""
@@ -895,7 +893,7 @@ msgstr "  -h, --help                  打印該消息並退出。\n"
 
 #: main.c:360
 msgid "  -i, --ignore-errors         Ignore errors from recipes.\n"
-msgstr "  -i, --ignore-errors         忽略來自命令配方的錯誤。\n"
+msgstr "  -i, --ignore-errors         忽略來自命令方案的錯誤。\n"
 
 #: main.c:362
 msgid ""
@@ -909,7 +907,7 @@ msgstr "  -j [N], --jobs[=N]          同時允許 N 個任務；無參數表明
 
 #: main.c:367
 msgid "  -k, --keep-going            Keep going when some targets can't be made.\n"
-msgstr "  -k, --keep-going            當某些目標無法制作時仍然繼續。\n"
+msgstr "  -k, --keep-going            當某些目標無法製作時仍然繼續。\n"
 
 #: main.c:369
 msgid ""
@@ -929,7 +927,7 @@ msgid ""
 "                              Don't actually run any recipe; just print them.\n"
 msgstr ""
 "  -n, --just-print, --dry-run, --recon\n"
-"                              只打印命令配方，不實際執行。\n"
+"                              只打印命令方案，不實際執行。\n"
 
 #: main.c:377
 msgid ""
@@ -937,7 +935,7 @@ msgid ""
 "                              Consider FILE to be very old and don't remake it.\n"
 msgstr ""
 "  -o 文件, --old-file=文件, --assume-old=文件\n"
-"                              將 <文件> 當做很舊，不必重新制作。\n"
+"                              將 <文件> 當做很舊，不必重新製作。\n"
 
 #: main.c:380
 msgid ""
@@ -953,7 +951,7 @@ msgstr "  -p, --print-data-base       打印 make 的內部數據庫。\n"
 
 #: main.c:385
 msgid "  -q, --question              Run no recipe; exit status says if up to date.\n"
-msgstr "  -q, --question              不運行任何配方；退出狀態說明是否已全部更新。\n"
+msgstr "  -q, --question              不運行任何方案；退出狀態說明是否已全部更新。\n"
 
 #: main.c:387
 msgid "  -r, --no-builtin-rules      Disable the built-in implicit rules.\n"
@@ -965,7 +963,7 @@ msgstr "  -R, --no-builtin-variables  禁用內置變量設置。\n"
 
 #: main.c:391
 msgid "  -s, --silent, --quiet       Don't echo recipes.\n"
-msgstr "  -s, --silent, --quiet       不輸出配方命令。\n"
+msgstr "  -s, --silent, --quiet       不輸出方案命令。\n"
 
 #: main.c:393
 msgid ""
@@ -977,7 +975,7 @@ msgstr ""
 
 #: main.c:396
 msgid "  -t, --touch                 Touch targets instead of remaking them.\n"
-msgstr "  -t, --touch                 touch 目標（更新修改時間）而不是重新制作它們。\n"
+msgstr "  -t, --touch                 touch 目標（更新修改時間）而不是重新製作它們。\n"
 
 #: main.c:398
 msgid "  --trace                     Print tracing information.\n"
@@ -1327,7 +1325,7 @@ msgstr "正在創建任務管道"
 
 #: posixos.c:72 posixos.c:227
 msgid "duping jobs pipe"
-msgstr "正在復制任務管道"
+msgstr "正在復製任務管道"
 
 #: posixos.c:78
 msgid "init jobserver pipe"
@@ -1410,11 +1408,11 @@ msgstr "%s: 加載失敗"
 
 #: read.c:985
 msgid "recipe commences before first target"
-msgstr "配方在第一個目標前開始"
+msgstr "方案在第一個目標前開始"
 
 #: read.c:1034
 msgid "missing rule before recipe"
-msgstr "配方之前遺漏了規則"
+msgstr "方案之前遺漏了規則"
 
 #: read.c:1124
 msgid "missing separator (did you mean TAB instead of 8 spaces?)"
@@ -1477,7 +1475,7 @@ msgstr "畸形的針對目標的標量定義"
 
 #: read.c:1950
 msgid "prerequisites cannot be defined in recipes"
-msgstr "依賴無法在配方腳本中定義"
+msgstr "依賴無法在方案腳本中定義"
 
 #: read.c:2009
 msgid "mixed implicit and static pattern rules"
@@ -1505,12 +1503,12 @@ msgstr "目標“%s”在同一個規則中給出了多次。"
 #: read.c:2116
 #, c-format
 msgid "warning: overriding recipe for target '%s'"
-msgstr "警告：覆蓋關于目標“%s”的配方"
+msgstr "警告：覆蓋關于目標“%s”的方案"
 
 #: read.c:2119
 #, c-format
 msgid "warning: ignoring old recipe for target '%s'"
-msgstr "警告：忽略關于目標“%s”的舊配方"
+msgstr "警告：忽略關于目標“%s”的舊方案"
 
 #: read.c:2223
 msgid "*** mixed implicit and normal rules: deprecated syntax"
@@ -1538,17 +1536,17 @@ msgstr "正刪除文件“%s”。\n"
 #: remake.c:406
 #, c-format
 msgid "%sNo rule to make target '%s', needed by '%s'%s"
-msgstr "%s沒有規則可制作目標“%s”，由“%s”%s 需求"
+msgstr "%s沒有規則可製作目標“%s”，由“%s”%s 需求"
 
 #: remake.c:416
 #, c-format
 msgid "%sNo rule to make target '%s'%s"
-msgstr "%s沒有規則可制作目標“%s”%s"
+msgstr "%s沒有規則可製作目標“%s”%s"
 
 #: remake.c:442
 #, c-format
 msgid "Considering target file '%s'.\n"
-msgstr "正在考慮目標文件“%s”。\n"
+msgstr "正在考慮目標檔案 “%s”。\n"
 
 #: remake.c:449
 #, c-format
@@ -1593,7 +1591,7 @@ msgstr "找不到關于“%s”的隱含規則。\n"
 #: remake.c:532
 #, c-format
 msgid "Using default recipe for '%s'.\n"
-msgstr "使用“%s”的默認配方。\n"
+msgstr "使用“%s”的默認方案。\n"
 
 #: remake.c:566 remake.c:1105
 #, c-format
@@ -1608,7 +1606,7 @@ msgstr "目標文件“%s”的前提已完成。\n"
 #: remake.c:697
 #, c-format
 msgid "The prerequisites of '%s' are being made.\n"
-msgstr "正在制作“%s”的前提。\n"
+msgstr "正在製作“%s”的前提。\n"
 
 #: remake.c:711
 #, c-format
@@ -1618,7 +1616,7 @@ msgstr "放棄目標文件“%s”。\n"
 #: remake.c:716
 #, c-format
 msgid "Target '%s' not remade because of errors."
-msgstr "由于錯誤目標“%s”並未重新制作。"
+msgstr "由于錯誤目標“%s”並未重新製作。"
 
 #: remake.c:768
 #, c-format
@@ -1648,17 +1646,17 @@ msgstr "目標“%s”是雙冒號目標並且沒有前提。\n"
 #: remake.c:806
 #, c-format
 msgid "No recipe for '%s' and no prerequisites actually changed.\n"
-msgstr "沒有關于“%s”的配方，並且沒有實際改變的前提。\n"
+msgstr "沒有關于“%s”的方案，並且沒有實際改變的前提。\n"
 
 #: remake.c:811
 #, c-format
 msgid "Making '%s' due to always-make flag.\n"
-msgstr "由于 always-make 標志所以制作“%s”。\n"
+msgstr "由于 always-make 標志所以製作“%s”。\n"
 
 #: remake.c:819
 #, c-format
 msgid "No need to remake target '%s'"
-msgstr "不需要重新制作目標“%s”"
+msgstr "不需要重新製作目標“%s”"
 
 #: remake.c:821
 #, c-format
@@ -1668,7 +1666,7 @@ msgstr "；使用 VPATH 名稱“%s”"
 #: remake.c:841
 #, c-format
 msgid "Must remake target '%s'.\n"
-msgstr "必須重新制作目標“%s”。\n"
+msgstr "必須重新製作目標“%s”。\n"
 
 #: remake.c:847
 #, c-format
@@ -1678,22 +1676,22 @@ msgstr "  忽略 VPATH 名稱“%s”。\n"
 #: remake.c:856
 #, c-format
 msgid "Recipe of '%s' is being run.\n"
-msgstr "“%s”的命令配方正在被執行。\n"
+msgstr "“%s”的命令方案正在被執行。\n"
 
 #: remake.c:863
 #, c-format
 msgid "Failed to remake target file '%s'.\n"
-msgstr "重新制作目標文件“%s”失敗。\n"
+msgstr "重新製作目標文件“%s”失敗。\n"
 
 #: remake.c:866
 #, c-format
 msgid "Successfully remade target file '%s'.\n"
-msgstr "重新制作目標文件“%s”成功。\n"
+msgstr "重新製作目標文件“%s”成功。\n"
 
 #: remake.c:869
 #, c-format
 msgid "Target file '%s' needs to be remade under -q.\n"
-msgstr "目標文件“%s”需要以 -q 選項重新制作。\n"
+msgstr "目標文件“%s”需要以 -q 選項重新製作。\n"
 
 #: remake.c:1064
 #, c-format
@@ -2138,4 +2136,3 @@ msgstr "釋放 jobserver 信號量：（錯誤 %ld：%s）"
 #, c-format
 msgid "semaphore or child process wait: (Error %ld: %s)"
 msgstr "信號量或子進程等待：(錯誤 %ld：%s)"
-
