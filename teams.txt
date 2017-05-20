@@ -1,0 +1,23 @@
+
+Traditional Chinese (Taiwan)
+
+Translation Project:
+	https://translationproject.org/team/zh_TW.html
+
+Gnome:
+	https://l10n.gnome.org/teams/
+	似乎沒有中文 team.
+	https://l10n.gnome.org/languages/
+	也沒有中文
+
+KDE:
+	?
+
+Ubuntu:
+	https://launchpad.net/~ubuntu-l10n-zh-tw
+
+Redhat:
+	?
+
+GNU Web site:
+	?
